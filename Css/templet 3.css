@@ -1345,8 +1345,9 @@ a {
 
 @media (max-width: 768px) {
     .works .container .image{
-        width:400px ;
+        width:350px;
         height: 330px;
+        margin: 0;
     }
 }
 .works .info {
@@ -1417,23 +1418,14 @@ a {
     position: relative;
 }
 
-.events .top,
-.events .bottom {
+.events .top {
     background-image: url("..//image/dots.png");
     width: 195px;
     height: 180px;
     z-index: -1;
-    position: absolute;
-}
-
-.events .top {
     right: 100px;
     top: 100px;
-}
-
-.events .bottom {
-    left: 120px;
-    bottom: 200px;
+    position: absolute;
 }
 
 .events .container {
