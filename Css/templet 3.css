@@ -1345,8 +1345,8 @@ a {
 
 @media (max-width: 768px) {
     .works .container .image{
-        width:350px;
-        height: 330px;
+        width:340px;
+        height: 300px;
         margin: 0;
     }
 }
