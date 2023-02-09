@@ -1243,6 +1243,14 @@ a {
     transform: skewx(-30deg);
 }
 
+.container .srv-box:hover .info::before{
+    background-color: #d5d5d5;
+    color: var(--main-color);
+}
+
+.container .srv-box:hover .info::after{
+    background-color: var(--second-colo);
+}
 /* end service */
 /* start skills */
 .our-skills {
@@ -1452,20 +1460,21 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 30px auto;
     gap: 20px;
 }
 
 .container .content .time .unit {
     text-align: center;
-    width: 90px;
+    width: 100px;
     border: solid 1px #d4d4d4;
     border-radius: 10px;
     transition: var(--main-transition);
 }
 @media (max-width: 768px) {
     .container .content .time .unit{
-        width: 70px;
+        width: 90px;
     }
 }
 .container .content .time .unit span {
@@ -1787,9 +1796,10 @@ a {
 
 .videos .holder .preview .info {
     background-color: white;
+    color: var(--second-colo);
+    text-align: center;
     padding: 20px;
     margin-top: 15px;
-    color: var(--second-colo);
     font-weight: bold;
     width: 100%;
 }
