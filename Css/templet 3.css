@@ -5,7 +5,7 @@
     box-sizing: border-box;
     --main-color: #2196f3;
     --second-colo: #1787e0;
-    --main-transition: 1s;
+    --main-transition: .8s;
     --badding: 50px;
 }
 
