@@ -975,13 +975,13 @@ a {
 }
 
 .testimonials .container .testi-box img {
-    width: 130px;
-    height: 130px;
+   width: 100px;
+    height: 100px;
     border: solid 10px #ececec;
     border-radius: 50%;
     position: absolute;
-    right: -13px;
-    top: -20px;
+    right: -6px;
+    top: -20px;;
 }
 
 .testimonials .container .testi-box h3 {
